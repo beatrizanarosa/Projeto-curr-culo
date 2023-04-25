@@ -1,0 +1,97 @@
+	<!DOCTYPE html>
+	<html lang = "pt-br">
+
+	<head>
+	<title>Soul Brrasil - currículos </title>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+<header>
+<figure>
+	<img src="logo.png" height="115">
+</figure> 
+	
+</header>
+<main>
+<form>
+	<h1>Preencha seu currículo</h1>
+<h2> Insira seus dados pessoais </h2>
+	<label>Nome completo</label> <br>
+	<input type="text" name="campotexto">
+	<br>
+
+	<label>CPF</label><br>
+	<input type="text" name="campocpf" placeholder= 000.000.000-00>
+	<br>
+
+	<label>RG</label><br>
+	<input type="text" name="camporg" placeholder="00.000.000-0">
+	<br>
+
+	<label>Data de nascimento</label><br>
+	<input type="date" name="campodata">
+	<br>
+<hr>
+<h2> Insira seus dados de contato </h2>
+
+	<label>Email</label><br>
+	<input type="Email" name="campoemail" placeholder="nome@servidor" required maxlength="5" size="20" class="campoemail">
+	<br>
+
+    <label>Telefone</label><br>
+    <input type="text" name="campotelefone">
+    <br>
+
+
+    <label>Estado</label><br>
+    <select name="uf">
+    	<option value="SP"> SP</option>
+		<option value="RJ"> RJ</option>
+		<option value="PR"> PR</option>
+    </select><br>
+
+    <label>Cidade</label><br>
+    <input type="text" name="campocidade">
+    <br>
+
+    <label>Bairro</label><br>
+    <input type="text" name="campobairro">
+    <br>
+
+    <label>Endereço</label><br>
+    <input type="text" name="endereço">
+    <br>
+   <hr>
+    <h2>Formação</h2> 
+<label>Escola de formação</label><br> 
+<input type="text" name="escola" size="40" required><br> 
+<br>
+<label>Categoria:</label>
+<br> 
+<br>
+
+<input type="radio" name="categoria" value="1"> <label class="categoria">Dança</label> 
+<input type="radio" name="categoria" value="2"> <label class="categoria">Teatro</label>
+<input type="radio" name="categoria" value="3"> <label class="categoria">Música</label>
+<input type="radio" name="categoria" value="4"> <label class="categoria">Pintura</label>
+<input type="radio" name="categoria" value="5"> <label class="categoria">Circense</label>
+<input type="radio" name="categoria" value="6"> <label class="categoria">Cinema</label>
+<input type="radio" name="categoria" value="7"> <label class="categoria">Escultura</label>
+<input type="radio" name="categoria" value="8"> <label class="categoria">Literatura</label>
+<br> <br> 
+
+<input type="submit" value="ENVIAR">
+</form>
+</main>
+<br>
+<br>
+<footer> 
+<figure> 
+<img src="logo.png" height="60" >
+</figure> 
+<p><strong>Desenvolvido por Ana Beatriz.</strong></p>
+</footer> 
+</body>
+</html>
